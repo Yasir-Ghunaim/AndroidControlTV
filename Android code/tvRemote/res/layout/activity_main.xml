@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="التحكم عن بعد"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Connect" />
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:gravity="center"
+         android:weightSum="2" >
+
+	        <Button
+	        android:id="@+id/input"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Input" 
+	        android:layout_weight="0.5"
+	        android:visibility="gone"/>
+
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="" />
+
+	        <Button
+	            android:id="@+id/power"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="Power"
+	            android:visibility="gone" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:gravity="center"
+         android:weightSum="2" >
+
+	        <Button
+	        android:id="@+id/menu"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Menu" 
+	        android:layout_weight="0.5"
+	        android:visibility="gone"/>
+
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.2"
+	            android:text="" />
+
+	        <Button
+	            android:id="@+id/return1"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="Return"
+	            android:visibility="gone" />
+
+     </LinearLayout>
+     
+      <Button
+          android:id="@+id/up"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="Up"
+          android:visibility="gone" />
+      
+      <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:weightSum="4.8" >
+
+	        <Button
+	        android:id="@+id/left"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Left" 
+	        android:layout_weight="1"
+	        android:visibility="gone"/>
+
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.1"
+	            android:text="" />
+	        <Button
+	            android:id="@+id/ok"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Ok" 
+	            android:visibility="gone"/>
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.1"
+	            android:text="" />
+
+	        <Button
+	            android:id="@+id/right"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Right" 
+	            android:visibility="gone"/>
+
+     </LinearLayout>
+     
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"
+        android:visibility="gone" />
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:gravity="center"
+         android:weightSum="4.8" >
+
+	        <Button
+	        android:id="@+id/volumeUp"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="+" 
+	        android:layout_weight="1"
+	        android:visibility="gone"/>
+
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="" />
+	        <Button
+	            android:id="@+id/mute"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Mute"
+	            android:visibility="gone" />
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="" />
+
+	        <Button
+	            android:id="@+id/volumeDown"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="-"
+	            android:visibility="gone" />
+
+     </LinearLayout>
+</LinearLayout>
