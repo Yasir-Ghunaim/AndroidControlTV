@@ -6,13 +6,13 @@ AndroidControlTV
 
 القطع المستخدمة: 
 - أردوينو (أنا أستخدمت نفس المايكروكنترولر الموجود في الأردوينو)
-http://www.amazon.com/Arduino-UNO-boa...
+http://www.amazon.com/Arduino-UNO-board-DIP-ATmega328P/dp/B006H06TVG/ref=sr_1_1?ie=UTF8&qid=1371296604&sr=8-1&keywords=Arduino+UNO
 
 - جهاز أندرويد 
 
 - دايود أشعة تحت حمراء (Infrared LED):
 https://www.sparkfun.com/products/9349
-http://www.radioshack.com/product/ind...
+http://www.radioshack.com/product/index.jsp?productId=2062565
 ملاحظة: لم أجرب هذه المستقبلات حيث أن المستقبل الذي أملكه اشترتيه من RadioShack ولم أجد نفس الموديل في الإنترنت. لكن المفروض أن جميع المستقبلات تعمل بنفس الطريقة
 
 -مقاومة (أي قيمة أكبر من 500 أوم)
